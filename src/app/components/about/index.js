@@ -28,19 +28,20 @@ export default function About() {
     <>
       <div>
         <div id="about">
-          <div className="max-w-[1070px] mx-auto min-h-screen relative">
-            <div className="py-36">
-              <div className="grid grid-cols-2 gap-[30px]">
-                <div className="aboutImage w-full hover:brightness-50 transition-all">
+          <div className="max-w-[1070px] box-border px-[17px] md:px-0 mx-auto min-h-screen relative">
+            <div className="py-[80px] md:py-36">
+              <div className="grid grid-cols-1 md:grid-cols-2 text-center md:text-left justify-center md:justify-normal gap-[30px]">
+                <div className="aboutImage w-full md:max-w-[520px] overflow-hidden hover:brightness-50 transition-all">
                   <Image
                     src={aboutImage}
-                    width={520}
+                    width={"100%"}
+                    height={"100%"}
                     alt="aboutleft"
                     className="rounded-md h-[409px !important]"
                   />
                 </div>
                 <div className="rounded-md relative">
-                  <div className="absolute bottom-0 right-[-70px] z-[-10]">
+                  <div className="hidden md:block absolute bottom-0 right-[-70px] z-[-10]">
                     <Image
                       src={aboutEffect}
                       width={100}

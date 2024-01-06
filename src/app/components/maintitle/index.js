@@ -13,7 +13,7 @@ export default function MainTitle({
 }) {
   return (
     <>
-      <h4 className="text-[#147efb] text-[17px] font-extrabold mb-[10px] uppercase">
+      <h4 className="text-[#147efb] text-[17px] font-extrabold mb-[20px] md:mb-[10px] uppercase">
         {children}
       </h4>
 
