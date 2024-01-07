@@ -33,7 +33,7 @@ export default function HomeMain() {
     <>
       <div
         id="home"
-        className="bg-[#F9F9F9] py-[110px] md:py-0 flex flex-col h-auto md:h-screen w-full"
+        className="bg-[#F9F9F9] py-[110px] md:py-0 md:pb-[80px] flex flex-col  w-full"
       >
         <div className="container mx-auto max-w-[1070px] px-[17px] md:px-[40px]">
           <div className="flex flex-col items-center text-center h-auto md:h-[650px] gap-[30px] md:gap-[100px] relative">
@@ -64,14 +64,16 @@ export default function HomeMain() {
                 </p>
                 <span className="flex justify-center md:justify-start cursor-pointer gap-[16px] -mt-[20px] mb-[40px] md:gap-5 static md:my-10 mx-0">
                   <Link
-                    href="https://nextjs.org"
+                    href="https://www.linkedin.com/in/akash-sarker-a21766260/"
+                    _blank
                     className="transition-[all linear 1.3s] hover:text-blue-700"
                   >
                     <PiLinkedinLogoBold fontSize={30} />
                   </Link>
 
                   <Link
-                    href="https://nextjs.org"
+                    href="https://github.com/dev-akash-sarker"
+                    target="_blank"
                     className="transition-[all linear 1.3s] hover:text-blue-700"
                   >
                     <FiGithub fontSize={30} />

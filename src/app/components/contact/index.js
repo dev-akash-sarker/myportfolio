@@ -15,7 +15,7 @@ const mulish = Mulish({
 export default function Contact() {
   return (
     <>
-      <div className="bg-white py-[150px] px-0">
+      <div className="bg-white text-center md:text-left py-[50px]  md:py-[150px] px-0">
         <div id="contact" className="max-w-[1070px] mx-auto">
           <MainTitle
             style={{ marginBottom: "60px" }}
@@ -23,8 +23,8 @@ export default function Contact() {
           >
             contact
           </MainTitle>
-          <div className="flex flex-wrap gap-20 mt-[60px]">
-            <div className="flex items-center gap-4">
+          <div className="flex flex-col md:flex-row flex-wrap gap-20 mt-[30px] md:mt-[60px]">
+            <div className="flex flex-col md:flex-row items-center gap-4">
               <span className="flex justify-center items-center bg-white rounded-full shadow-md text-[#147efb] h-[50px] w-[50px]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@ export default function Contact() {
                 </p>
               </div>
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center flex-col md:flex-row gap-4">
               <span className="flex justify-center items-center bg-white rounded-full shadow-md text-[#147efb] h-[50px] w-[50px]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

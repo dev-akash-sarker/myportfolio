@@ -57,7 +57,7 @@ export default function SkillSet() {
           </li>
           <li>
             <Image
-              src="https://skillicons.dev/icons?i=materialui,bootstrap"
+              src="https://skillicons.dev/icons?i=firebase,nodejs"
               alt="JS and TS Icons"
               unoptimized
               width={100}

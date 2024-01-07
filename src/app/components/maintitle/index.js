@@ -21,7 +21,7 @@ export default function MainTitle({
         style={style}
         className={
           poppins.className +
-          " text-[#2d2e32] text-[25px] leading-[1.4] font-extrabold"
+          " text-[#2d2e32] text-[18px] md:text-[25px] leading-[1.4] font-extrabold"
         }
       >
         {textOne} <br /> {textTwo}

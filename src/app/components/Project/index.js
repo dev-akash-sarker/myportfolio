@@ -77,13 +77,14 @@ export default function Project() {
                     </div>
                     <div className="flex items-center justify-evenly">
                       <Link
-                        href=""
+                        href="https://github.com/dev-akash-sarker/car-rental"
                         className="mt-[30px] hover:text-[#147efb] transition-all mr-[15px] text-[#2d2e32] text-[17px] font-semibold gap-[5px] flex items-center"
                       >
                         Code <FiGithub fontSize={24} />
                       </Link>
                       <Link
-                        href=""
+                        href="https://car-rental-ochre-zeta.vercel.app/"
+                        target="_blank"
                         className="mt-[30px] hover:text-[#147efb] transition-all ml-[15px] text-[#2d2e32] text-[17px] font-semibold gap-[5px] flex items-center"
                       >
                         Live Demo <ExternalLink />
@@ -106,18 +107,16 @@ export default function Project() {
 
                   <div class="flex flex-col h-auto justify-center items-center text-center w-full md:w-[300px]">
                     <h3 className="items-center text-[#2d2e32] font-bold flex text-[17px] uppercase gap-[2px] justify-center mb-8 relative">
-                      Car Rental
+                      GYMATE
                       <span class="text-[#433d3d] text-[14px] ml-[2px]">
-                        (March 2023)
+                        (July 2023) 🏋️
                       </span>
-                      🚗
                     </h3>
                     <div className={mulish.className}>
                       <p className="text-[#767676] text-[17px] font-bold text-center">
-                        A car rental website is an online platform that allows
-                        users to rent cars for personal or business use. The
-                        website provides an interface for searching, comparing,
-                        and reserving cars.
+                        A gym website is a comprehensive resource for fitness
+                        information, class schedules, membership options, and
+                        tools to help users achieve their fitness goals.
                       </p>
                     </div>
 
@@ -131,13 +130,15 @@ export default function Project() {
                     </div>
                     <div className="flex items-center justify-evenly">
                       <Link
-                        href=""
+                        href="https://github.com/dev-akash-sarker/gymate"
+                        target="_blank"
                         className="mt-[30px] hover:text-[#147efb] transition-all mr-[15px] text-[#2d2e32] text-[17px] font-semibold gap-[5px] flex items-center"
                       >
                         Code <FiGithub fontSize={24} />
                       </Link>
                       <Link
-                        href=""
+                        href="https://gymate-red.vercel.app/"
+                        target="_blank"
                         className="mt-[30px] hover:text-[#147efb] transition-all ml-[15px] text-[#2d2e32] text-[17px] font-semibold gap-[5px] flex items-center"
                       >
                         Live Demo <ExternalLink />
@@ -160,18 +161,17 @@ export default function Project() {
 
                   <div class="flex flex-col h-auto justify-center items-center text-center w-full md:w-[300px]">
                     <h3 className="items-center text-[#2d2e32] font-bold flex text-[17px] uppercase gap-[2px] justify-center mb-8 relative">
-                      Car Rental
+                      ECOMMERCE
                       <span class="text-[#433d3d] text-[14px] ml-[2px]">
-                        (March 2023)
+                        (DECEMBER 2023) 🛒
                       </span>
                       🚗
                     </h3>
                     <div className={mulish.className}>
                       <p className="text-[#767676] text-[17px] font-bold text-center">
-                        A car rental website is an online platform that allows
-                        users to rent cars for personal or business use. The
-                        website provides an interface for searching, comparing,
-                        and reserving cars.
+                        With a focus on simplicity and clean design, this store
+                        prioritize user experience, making it easy for customers
+                        to find and purchase the products they need.
                       </p>
                     </div>
 
@@ -185,13 +185,15 @@ export default function Project() {
                     </div>
                     <div className="flex items-center justify-evenly">
                       <Link
-                        href=""
+                        href="https://github.com/dev-akash-sarker/Minimul-Ecommerce"
+                        target="_blank"
                         className="mt-[30px] hover:text-[#147efb] transition-all mr-[15px] text-[#2d2e32] text-[17px] font-semibold gap-[5px] flex items-center"
                       >
                         Code <FiGithub fontSize={24} />
                       </Link>
                       <Link
-                        href=""
+                        href="https://minimul-ecommerce.vercel.app/"
+                        target="_blank"
                         className="mt-[30px] hover:text-[#147efb] transition-all ml-[15px] text-[#2d2e32] text-[17px] font-semibold gap-[5px] flex items-center"
                       >
                         Live Demo <ExternalLink />

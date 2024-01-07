@@ -14,7 +14,7 @@ export default function Header() {
 
   return (
     <div className="bg-white">
-      <div className="container-lg mx-auto ">
+      <div className="container">
         <nav className="fixed w-full bg-white z-10 flex justify-between items-center py-6 px-12 capitalize shadow-md">
           <ul>
             <Link href={"#home"}>

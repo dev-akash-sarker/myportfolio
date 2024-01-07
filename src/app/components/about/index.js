@@ -28,7 +28,7 @@ export default function About() {
     <>
       <div>
         <div id="about">
-          <div className="max-w-[1070px] box-border px-[17px] md:px-0 mx-auto min-h-screen relative">
+          <div className="max-w-[1070px] box-border px-[17px] md:px-0 mx-auto  relative">
             <div className="py-[80px] md:py-36">
               <div className="grid grid-cols-1 md:grid-cols-2 text-center md:text-left justify-center md:justify-normal gap-[30px]">
                 <div className="aboutImage w-full md:max-w-[520px] overflow-hidden hover:brightness-50 transition-all">
