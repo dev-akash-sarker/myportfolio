@@ -12,10 +12,10 @@
 
 <h2>Screenshots of the Project 📸</h2>
 <br>
-<h3 align='center'>Home Page 🏡</h3>
+<h3 align='center'>Main Page</h3>
 
 <div align='center'>
-<img src='https://raw.githubusercontent.com/dev-akash-sarker/Minimul-Ecommerce/master/src/img/github/b.png'/>
+<img src='https://raw.githubusercontent.com/dev-akash-sarker/myportfolio/master/public/screenshot.png'/>
 </div>
 
 <br><br>
