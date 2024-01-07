@@ -9,7 +9,7 @@ export default function MyResumeDownload() {
     const storage = getStorage();
     const starRef = ref(
       storage,
-      "gs://myportfolio-6f040.appspot.com/mypdf.pdf"
+      "gs://myportfolio-6f040.appspot.com/resumeofAkashsarker.pdf"
     );
     getDownloadURL(starRef).then((url) => {
       console.log("downloadlink", url);
