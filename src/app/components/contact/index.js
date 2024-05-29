@@ -79,7 +79,7 @@ export default function Contact() {
                   href="mailto:akashsarkercit@gmail.com"
                   className="text-[#767676] hover:text-[#147efb] transition-all font-normal cursor-pointer text-[17px]"
                 >
-                  akashsarkercit@gmail.com
+                  akashsarkerdev01@gmail.com
                 </Link>
               </div>
             </div>
